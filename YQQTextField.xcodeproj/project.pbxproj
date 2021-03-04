@@ -8,20 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		2526E14B25F0B8EE00FDBAAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2526E14A25F0B8EE00FDBAAE /* AppDelegate.m */; };
-		2526E14E25F0B8EE00FDBAAE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2526E14D25F0B8EE00FDBAAE /* SceneDelegate.m */; };
 		2526E15125F0B8EE00FDBAAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2526E15025F0B8EE00FDBAAE /* ViewController.m */; };
 		2526E15425F0B8EE00FDBAAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2526E15225F0B8EE00FDBAAE /* Main.storyboard */; };
 		2526E15625F0B8F100FDBAAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2526E15525F0B8F100FDBAAE /* Assets.xcassets */; };
 		2526E15925F0B8F100FDBAAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2526E15725F0B8F100FDBAAE /* LaunchScreen.storyboard */; };
 		2526E15C25F0B8F100FDBAAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2526E15B25F0B8F100FDBAAE /* main.m */; };
+		2526E16625F0B92400FDBAAE /* YQQTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2526E16425F0B92400FDBAAE /* YQQTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2526E14625F0B8EE00FDBAAE /* YQQTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQQTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2526E14925F0B8EE00FDBAAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2526E14A25F0B8EE00FDBAAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2526E14C25F0B8EE00FDBAAE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		2526E14D25F0B8EE00FDBAAE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		2526E14F25F0B8EE00FDBAAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2526E15025F0B8EE00FDBAAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2526E15325F0B8EE00FDBAAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +27,8 @@
 		2526E15825F0B8F100FDBAAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2526E15A25F0B8F100FDBAAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2526E15B25F0B8F100FDBAAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2526E16425F0B92400FDBAAE /* YQQTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQQTextField.m; sourceTree = "<group>"; };
+		2526E16525F0B92400FDBAAE /* YQQTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQQTextField.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +63,10 @@
 			children = (
 				2526E14925F0B8EE00FDBAAE /* AppDelegate.h */,
 				2526E14A25F0B8EE00FDBAAE /* AppDelegate.m */,
-				2526E14C25F0B8EE00FDBAAE /* SceneDelegate.h */,
-				2526E14D25F0B8EE00FDBAAE /* SceneDelegate.m */,
 				2526E14F25F0B8EE00FDBAAE /* ViewController.h */,
 				2526E15025F0B8EE00FDBAAE /* ViewController.m */,
+				2526E16525F0B92400FDBAAE /* YQQTextField.h */,
+				2526E16425F0B92400FDBAAE /* YQQTextField.m */,
 				2526E15225F0B8EE00FDBAAE /* Main.storyboard */,
 				2526E15525F0B8F100FDBAAE /* Assets.xcassets */,
 				2526E15725F0B8F100FDBAAE /* LaunchScreen.storyboard */,
@@ -146,9 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2526E15125F0B8EE00FDBAAE /* ViewController.m in Sources */,
+				2526E16625F0B92400FDBAAE /* YQQTextField.m in Sources */,
 				2526E14B25F0B8EE00FDBAAE /* AppDelegate.m in Sources */,
 				2526E15C25F0B8F100FDBAAE /* main.m in Sources */,
-				2526E14E25F0B8EE00FDBAAE /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W43WD399J7;
 				INFOPLIST_FILE = YQQTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W43WD399J7;
 				INFOPLIST_FILE = YQQTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
