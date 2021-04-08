@@ -14,6 +14,8 @@
 		2526E15925F0B8F100FDBAAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2526E15725F0B8F100FDBAAE /* LaunchScreen.storyboard */; };
 		2526E15C25F0B8F100FDBAAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2526E15B25F0B8F100FDBAAE /* main.m */; };
 		2526E16625F0B92400FDBAAE /* YQQTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2526E16425F0B92400FDBAAE /* YQQTextField.m */; };
+		25A5C375261EFCC0002239BE /* FeatureOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5C374261EFCC0002239BE /* FeatureOne.m */; };
+		25A5C379261EFCCE002239BE /* FeatureTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5C378261EFCCE002239BE /* FeatureTwo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		2526E15B25F0B8F100FDBAAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2526E16425F0B92400FDBAAE /* YQQTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQQTextField.m; sourceTree = "<group>"; };
 		2526E16525F0B92400FDBAAE /* YQQTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQQTextField.h; sourceTree = "<group>"; };
+		25A5C373261EFCC0002239BE /* FeatureOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeatureOne.h; sourceTree = "<group>"; };
+		25A5C374261EFCC0002239BE /* FeatureOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeatureOne.m; sourceTree = "<group>"; };
+		25A5C377261EFCCE002239BE /* FeatureTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeatureTwo.h; sourceTree = "<group>"; };
+		25A5C378261EFCCE002239BE /* FeatureTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeatureTwo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				2526E15025F0B8EE00FDBAAE /* ViewController.m */,
 				2526E16525F0B92400FDBAAE /* YQQTextField.h */,
 				2526E16425F0B92400FDBAAE /* YQQTextField.m */,
+				25A5C373261EFCC0002239BE /* FeatureOne.h */,
+				25A5C374261EFCC0002239BE /* FeatureOne.m */,
+				25A5C377261EFCCE002239BE /* FeatureTwo.h */,
+				25A5C378261EFCCE002239BE /* FeatureTwo.m */,
 				2526E15225F0B8EE00FDBAAE /* Main.storyboard */,
 				2526E15525F0B8F100FDBAAE /* Assets.xcassets */,
 				2526E15725F0B8F100FDBAAE /* LaunchScreen.storyboard */,
@@ -146,9 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2526E15125F0B8EE00FDBAAE /* ViewController.m in Sources */,
+				25A5C379261EFCCE002239BE /* FeatureTwo.m in Sources */,
 				2526E16625F0B92400FDBAAE /* YQQTextField.m in Sources */,
 				2526E14B25F0B8EE00FDBAAE /* AppDelegate.m in Sources */,
 				2526E15C25F0B8F100FDBAAE /* main.m in Sources */,
+				25A5C375261EFCC0002239BE /* FeatureOne.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
